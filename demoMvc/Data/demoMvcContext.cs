@@ -15,5 +15,7 @@ namespace demoMvc.Data
         }
 
         public DbSet<demoMvc.Models.Movie> Movie { get; set; }
+        public DbSet<demoMvc.Models.Employee> Employee { get; set; }
+
     }
 }
